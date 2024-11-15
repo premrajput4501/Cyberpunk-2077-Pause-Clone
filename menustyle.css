@@ -1,0 +1,95 @@
+.main-div{
+    position: relative;
+}
+
+.pause-container{
+    position: relative;
+    box-shadow: 1px 1px 7px 4px rgba(0, 0, 0, 0.713);
+    height: 730px;
+    width: 305px;
+    padding: 30px;
+    margin-left: 80px;
+    background-color: rgba(56, 15, 15, 0.841);
+    background: linear-gradient(440deg,rgba(56, 15, 15, 0.841),rgba(61, 27, 27, 0.841),rgba(23, 23, 23, 0.841));
+}
+
+body{
+    margin: 0 auto;
+    background-size: cover;
+    backdrop-filter: blur(3px);
+}
+
+.game-logo{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding-top: 80px;
+    margin-bottom: 50px;
+    transition: transform 0.3s;
+}
+
+.game-logo:hover{
+    transform: scale(1.05);
+}
+
+.options{
+    font-size: 13pt;
+    border: 1px solid transparent;
+    top: 100px;
+    color: rgb(255, 61, 61);
+    display: block;
+    padding-top: 11px;
+    padding-left: 10px;
+    padding-bottom: 11px;
+    text-shadow: 1px 1px 1px black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    user-select: none;
+}
+
+.options:hover{
+    border: 1px solid cyan;
+    border-bottom-right-radius: 18px;
+    color: cyan;
+    cursor: pointer;
+}
+
+.options:active{
+    border: 1px solid rgb(6, 105, 105);
+    color: rgb(7, 117, 117);
+}
+
+.version{
+    padding: 0px;
+    color: rgb(255, 61, 61);
+    text-shadow: 1px 1px 1px black;
+    user-select: none;
+}
+
+.controls{
+    position: absolute;
+    right: 40;
+    bottom: 45;
+    color: rgb(255, 61, 61);
+    user-select: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 0.4px 0.7px 2px black;
+    transform: rotate(3.5deg);
+    
+}
+
+.prompts{
+    color: black;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background-color: cyan;
+    user-select: none;
+}
+
+.prompts:hover{
+    background-color: rgb(0, 180, 180);
+}
+
+.prompts:active{
+    background-color: rgb(12, 67, 67);
+}
