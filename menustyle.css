@@ -22,6 +22,7 @@ body{
 
 .game-logo{
     display: flex;
+    /* width: 10px; */
     justify-content: center;
     align-content: center;
     align-items: center;
@@ -29,6 +30,10 @@ body{
     margin-bottom: 50px;
     transition: transform 0.3s;
     user-select: none;
+}
+
+.game-logo img{
+    width: 400px;
 }
 
 .game-logo:hover{
@@ -64,7 +69,8 @@ body{
 }
 
 .version{
-    padding: 0px;
+    margin-top: 1220px;
+    padding-top: 200px;
     color: rgb(252, 76, 76);
     text-shadow: 1px 1px 1px black;
     user-select: none;
@@ -98,4 +104,42 @@ body{
 
 .prompts:active{
     background-color: rgb(12, 67, 67);
+}
+
+@media (max-width:480px){
+
+    body{
+        background-position: 52%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .pause-container{
+        width: 200px;
+        margin-left: 20px;
+        /* height: max-content; */
+    }
+
+    .game-logo{
+        /* width: 220px; */
+        padding-top: 160px;
+    }
+
+    .game-logo img{
+        width: 280px;
+    }
+
+    .pause-container , .options{
+        font-size: 12pt;
+    }
+
+    .controls, .prompts{
+        font-size: 6.2pt;
+        right: 0;
+    }
+
+    .version{
+        font-size: 10pt;
+    }
+
 }
