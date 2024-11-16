@@ -22,7 +22,6 @@ body{
 
 .game-logo{
     display: flex;
-    /* width: 10px; */
     justify-content: center;
     align-content: center;
     align-items: center;
@@ -52,14 +51,14 @@ body{
     text-shadow: 1px 1px 1px black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     user-select: none;
-    transition: 0.5s;
+    transition: 0.36s;
 }
 
 .options:hover{
     transition: 0.1s;
-    border: 1px solid cyan;
+    border: 1px solid aqua;
     border-bottom-right-radius: 18px;
-    color: cyan;
+    color: aqua;
     cursor: pointer;
 }
 
@@ -69,8 +68,6 @@ body{
 }
 
 .version{
-    margin-top: 1220px;
-    padding-top: 200px;
     color: rgb(252, 76, 76);
     text-shadow: 1px 1px 1px black;
     user-select: none;
@@ -94,7 +91,6 @@ body{
     padding: 5px 5px;
     border-radius: 3px;
     border: 1px solid cyan;
-    /* background-color: cyan; */
     user-select: none;
 }
 
@@ -117,11 +113,9 @@ body{
     .pause-container{
         width: 200px;
         margin-left: 20px;
-        /* height: max-content; */
     }
 
     .game-logo{
-        /* width: 220px; */
         padding-top: 160px;
     }
 
