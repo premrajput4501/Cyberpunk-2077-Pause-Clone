@@ -10,8 +10,7 @@
     padding-left: 30px;
     padding-right: 30px;
     margin-left: 80px;
-    background-color: rgba(56, 15, 15, 0);
-    background: linear-gradient(440deg,rgba(56, 15, 15, 0.841),rgba(61, 27, 27, 0.841),rgba(23, 23, 23, 0.841));
+    background: linear-gradient(440deg,rgba(56, 15, 15, 0.921),rgba(61, 27, 27, 0.921),rgba(23, 23, 23, 0.921));
 }
 
 body{
